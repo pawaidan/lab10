@@ -1,0 +1,1 @@
+int temmpread(char *device, int verbose);
