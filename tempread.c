@@ -76,6 +76,8 @@ int main(int argc, char **argv){
       if(argc == 0){
         printf("must have device serial after the -d \n");
         break;
+      }else if(strlen(argc) -lt 15){
+        printf("bad device serial");
       }else{
           device = argv[0];
           argc--; 
